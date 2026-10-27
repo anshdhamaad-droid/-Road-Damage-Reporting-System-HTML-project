@@ -1,0 +1,367 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RoadCare | Road Damage Reporting System</title>
+</head>
+
+<body style="margin:0; font-family:Arial, Helvetica, sans-serif; background-color:#f1f5f9; color:#1e293b; line-height:1.6;">
+
+<header style="background-color:#102a43; color:white; padding:25px 7%;">
+
+<h1 style="margin:0; font-size:30px; letter-spacing:0.5px;">
+🛣️ RoadCare
+</h1>
+<p style="margin:5px 0 0; color:#cbd5e1; font-size:15px;">
+Road Damage Reporting System
+</p>
+
+</header>
+
+
+<nav style="background-color:#174a63; padding:14px 7%;">
+
+<a href="#home" style="color:white; text-decoration:none; margin-right:22px; font-weight:bold;">Home</a>
+
+<a href="#report" style="color:white; text-decoration:none; margin-right:22px; font-weight:bold;">Report Damage</a>
+
+<a href="#reports" style="color:white; text-decoration:none; margin-right:22px; font-weight:bold;">View Reports</a>
+
+<a href="#about" style="color:white; text-decoration:none; font-weight:bold;">About Us</a>
+
+</nav>
+
+
+<main style="max-width:1100px; margin:0 auto; padding:30px 20px;">
+
+<section id="home" style="background-color:#dff4f1; padding:40px 30px; border-radius:14px; border:1px solid #b9e5dd; margin-bottom:30px;">
+
+<p style="color:#087f73; font-weight:bold; text-transform:uppercase; letter-spacing:2px; margin:0 0 10px;">
+YOUR REPORT CAN MAKE A DIFFERENCE
+</p>
+
+<h2 style="font-size:36px; line-height:1.2; color:#102a43; margin:0 0 18px;">
+Better Roads.<br>
+Safer Journeys.
+</h2>
+
+<p style="font-size:17px; color:#475569; max-width:650px; margin-bottom:25px;">
+Spotted a pothole, cracked road, or waterlogging?
+Report the problem and help identify roads that
+need attention. Together, we can work towards
+safer and better roads for everyone.
+</p>
+
+<a href="#report" style="display:inline-block; background-color:#087f73; color:white; text-decoration:none; padding:13px 25px; border-radius:7px; font-weight:bold; margin-right:10px;">
++ Report Damage
+</a>
+
+<a href="#reports" style="display:inline-block; background-color:white; color:#174a63; text-decoration:none; padding:13px 25px; border:1px solid #b9cbd5; border-radius:7px; font-weight:bold; margin-top:10px;">
+View Reports
+</a>
+
+</section>
+
+
+<section style="margin-bottom:35px;">
+
+<h2 style="color:#102a43; font-size:25px; margin-bottom:18px;">
+How RoadCare Works
+</h2>
+
+<div style="display:flex; flex-wrap:wrap; gap:18px;">
+
+<div style="flex:1 1 220px; background-color:white; padding:22px; border-radius:10px; border:1px solid #e2e8f0; box-sizing:border-box;">
+
+<div style="font-size:30px;">📝</div>
+
+<h3 style="color:#174a63; margin:8px 0;">1. Report</h3>
+
+<p style="color:#64748b; margin:0;">
+Enter the road location and describe the damage you noticed.
+</p>
+
+</div>
+
+<div style="flex:1 1 220px; background-color:white; padding:22px; border-radius:10px; border:1px solid #e2e8f0; box-sizing:border-box;">
+
+<div style="font-size:30px;">📋</div>
+
+<h3 style="color:#174a63; margin:8px 0;">2. Track</h3>
+
+<p style="color:#64748b; margin:0;">
+View sample road damage reports in the table below.
+</p>
+
+</div>
+
+<div style="flex:1 1 220px; background-color:white; padding:22px; border-radius:10px; border:1px solid #e2e8f0; box-sizing:border-box;">
+
+<div style="font-size:30px;">🛠️</div>
+
+<h3 style="color:#174a63; margin:8px 0;">3. Improve</h3>
+
+<p style="color:#64748b; margin:0;">
+Help highlight damaged roads that may need repair.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section id="report" style="background-color:white; padding:30px; border-radius:12px; border:1px solid #e2e8f0; margin-bottom:35px; box-sizing:border-box;">
+
+<h2 style="color:#102a43; margin:0 0 8px; font-size:27px;">
+Report Road Damage
+</h2>
+
+<p style="color:#64748b; margin-top:0; margin-bottom:25px;">
+Please provide accurate information about the damaged road.
+</p>
+
+<form>
+
+<div style="margin-bottom:18px;">
+
+<label for="name" style="display:block; font-weight:bold; margin-bottom:7px; color:#334155;">
+Full Name <span style="color:#dc2626;">*</span>
+</label>
+
+<input type="text" id="name" name="name" placeholder="Enter your full name" required style="width:100%; padding:12px; box-sizing:border-box; border:1px solid #cbd5e1; border-radius:6px; font-size:15px; background-color:#f8fafc;">
+
+</div>
+
+<div style="display:flex; flex-wrap:wrap; gap:18px;">
+
+<div style="flex:1 1 220px; margin-bottom:18px;">
+
+<label for="email" style="display:block; font-weight:bold; margin-bottom:7px; color:#334155;">
+Email Address <span style="color:#dc2626;">*</span>
+</label>
+
+<input type="email" id="email" name="email" placeholder="example@email.com" required style="width:100%; padding:12px; box-sizing:border-box; border:1px solid #cbd5e1; border-radius:6px; font-size:15px; background-color:#f8fafc;">
+
+</div>
+
+<div style="flex:1 1 220px; margin-bottom:18px;">
+
+<label for="phone" style="display:block; font-weight:bold; margin-bottom:7px; color:#334155;">
+Phone Number (Optional)
+</label>
+
+<input type="tel" id="phone" name="phone" placeholder="Enter phone number" style="width:100%; padding:12px; box-sizing:border-box; border:1px solid #cbd5e1; border-radius:6px; font-size:15px; background-color:#f8fafc;">
+
+</div>
+
+</div>
+
+<div style="display:flex; flex-wrap:wrap; gap:18px;">
+
+<div style="flex:1 1 220px; margin-bottom:18px;">
+
+<label for="location" style="display:block; font-weight:bold; margin-bottom:7px; color:#334155;">
+Road / Street Name <span style="color:#dc2626;">*</span>
+</label>
+
+<input type="text" id="location" name="location" placeholder="Enter road or street name" required style="width:100%; padding:12px; box-sizing:border-box; border:1px solid #cbd5e1; border-radius:6px; font-size:15px; background-color:#f8fafc;">
+
+</div>
+
+<div style="flex:1 1 220px; margin-bottom:18px;">
+
+<label for="city" style="display:block; font-weight:bold; margin-bottom:7px; color:#334155;">
+City <span style="color:#dc2626;">*</span>
+</label>
+
+<input type="text" id="city" name="city" placeholder="Enter city name" required style="width:100%; padding:12px; box-sizing:border-box; border:1px solid #cbd5e1; border-radius:6px; font-size:15px; background-color:#f8fafc;">
+
+</div>
+
+</div>
+
+<div style="margin-bottom:18px;">
+
+<label for="damage" style="display:block; font-weight:bold; margin-bottom:7px; color:#334155;">
+Type of Damage <span style="color:#dc2626;">*</span>
+</label>
+
+<select id="damage" name="damage" required style="width:100%; padding:12px; box-sizing:border-box; border:1px solid #cbd5e1; border-radius:6px; font-size:15px; background-color:#f8fafc;">
+
+<option value="">Select damage type</option>
+<option value="Pothole">Pothole</option>
+<option value="Cracked Road">Cracked Road</option>
+<option value="Waterlogging">Waterlogging</option>
+<option value="Broken Road">Broken Road</option>
+<option value="Damaged Road Sign">Damaged Road Sign</option>
+<option value="Other">Other</option>
+
+</select>
+
+</div>
+
+<div style="margin-bottom:18px;">
+
+<label for="description" style="display:block; font-weight:bold; margin-bottom:7px; color:#334155;">
+Description of the Problem <span style="color:#dc2626;">*</span>
+</label>
+
+<textarea id="description" name="description" rows="5" placeholder="Describe the damage and mention a nearby landmark if possible..." required style="width:100%; padding:12px; box-sizing:border-box; border:1px solid #cbd5e1; border-radius:6px; font-size:15px; background-color:#f8fafc; font-family:Arial, Helvetica, sans-serif; resize:vertical;"></textarea>
+
+</div>
+
+<div style="margin-bottom:25px;">
+
+<label for="photo" style="display:block; font-weight:bold; margin-bottom:7px; color:#334155;">
+Upload Road Photo (Optional)
+</label>
+
+<input type="file" id="photo" name="photo" accept="image/*" style="display:block; width:100%; padding:10px; box-sizing:border-box; border:1px dashed #94a3b8; border-radius:6px; background-color:#f8fafc;">
+
+<p style="font-size:12px; color:#64748b; margin-bottom:0;">
+Select an image of the damaged road from your device.
+</p>
+
+</div>
+
+<p style="font-size:13px; color:#64748b;">
+Fields marked with <span style="color:#dc2626;">*</span> are required.
+</p>
+
+<button type="submit" style="background-color:#087f73; color:white; border:none; padding:13px 25px; border-radius:6px; font-size:15px; font-weight:bold; cursor:pointer; margin-right:8px;">
+Submit Report
+</button>
+
+<button type="reset" style="background-color:#e2e8f0; color:#334155; border:none; padding:13px 22px; border-radius:6px; font-size:15px; font-weight:bold; cursor:pointer;">
+Clear Form
+</button>
+
+</form>
+
+</section>
+
+
+<section id="reports" style="background-color:white; padding:30px; border-radius:12px; border:1px solid #e2e8f0; margin-bottom:35px; box-sizing:border-box;">
+
+<h2 style="color:#102a43; margin:0 0 8px; font-size:27px;">
+Reported Road Damage
+</h2>
+
+<p style="color:#64748b; margin-top:0; margin-bottom:20px;">
+The following sample reports demonstrate how road damage reports can be displayed.
+</p>
+
+<div style="overflow-x:auto;">
+
+<table border="1" style="width:100%; border-collapse:collapse; border-color:#e2e8f0; text-align:left; font-size:14px;">
+
+<thead style="background-color:#174a63; color:white;">
+
+<tr>
+<th style="padding:13px 10px;">Report ID</th>
+<th style="padding:13px 10px;">Location</th>
+<th style="padding:13px 10px;">City</th>
+<th style="padding:13px 10px;">Damage Type</th>
+<th style="padding:13px 10px;">Description</th>
+<th style="padding:13px 10px;">Status</th>
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr style="background-color:#ffffff;">
+<td style="padding:12px 10px; border:1px solid #e2e8f0; font-weight:bold; color:#087f73;">RD001</td>
+<td style="padding:12px 10px; border:1px solid #e2e8f0;">Mall Road</td>
+<td style="padding:12px 10px; border:1px solid #e2e8f0;">Solan</td>
+<td style="padding:12px 10px; border:1px solid #e2e8f0;">Pothole</td>
+<td style="padding:12px 10px; border:1px solid #e2e8f0; overflow-wrap:anywhere;">A large pothole near the bus stop.</td>
+<td style="padding:12px 10px; border:1px solid #e2e8f0; color:#92400e; font-weight:bold;">Reported</td>
+</tr>
+
+<tr style="background-color:#f8fafc;">
+<td style="padding:12px 10px; border:1px solid #e2e8f0; font-weight:bold; color:#087f73;">RD002</td>
+<td style="padding:12px 10px; border:1px solid #e2e8f0;">Hospital Road</td>
+<td style="padding:12px 10px; border:1px solid #e2e8f0;">Shimla</td>
+<td style="padding:12px 10px; border:1px solid #e2e8f0;">Cracked Road</td>
+<td style="padding:12px 10px; border:1px solid #e2e8f0; overflow-wrap:anywhere;">Several cracks have appeared along the left side of the road.</td>
+<td style="padding:12px 10px; border:1px solid #e2e8f0; color:#92400e; font-weight:bold;">Reported</td>
+</tr>
+
+<tr style="background-color:#ffffff;">
+<td style="padding:12px 10px; border:1px solid #e2e8f0; font-weight:bold; color:#087f73;">RD003</td>
+<td style="padding:12px 10px; border:1px solid #e2e8f0;">College Road</td>
+<td style="padding:12px 10px; border:1px solid #e2e8f0;">Chandigarh</td>
+<td style="padding:12px 10px; border:1px solid #e2e8f0;">Waterlogging</td>
+<td style="padding:12px 10px; border:1px solid #e2e8f0; overflow-wrap:anywhere;">Water collects on the road after heavy rainfall.</td>
+<td style="padding:12px 10px; border:1px solid #e2e8f0; color:#92400e; font-weight:bold;">Reported</td>
+</tr>
+
+<tr style="background-color:#f8fafc;">
+<td style="padding:12px 10px; border:1px solid #e2e8f0; font-weight:bold; color:#087f73;">RD004</td>
+<td style="padding:12px 10px; border:1px solid #e2e8f0;">Station Road</td>
+<td style="padding:12px 10px; border:1px solid #e2e8f0;">Kalka</td>
+<td style="padding:12px 10px; border:1px solid #e2e8f0;">Broken Road</td>
+<td style="padding:12px 10px; border:1px solid #e2e8f0; overflow-wrap:anywhere;">A damaged section makes it difficult for vehicles to pass safely.</td>
+<td style="padding:12px 10px; border:1px solid #e2e8f0; color:#92400e; font-weight:bold;">Reported</td>
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+</section>
+
+
+<section id="about" style="background-color:#102a43; color:white; padding:30px; border-radius:12px; margin-bottom:25px;">
+
+<h2 style="margin-top:0; font-size:26px;">
+About RoadCare
+</h2>
+
+<p style="color:#dbeafe;">
+RoadCare is a student project designed to demonstrate
+how citizens could report road damage through a simple
+online interface. It provides a form for entering road
+details and displays sample reports on the webpage.
+</p>
+
+<p style="color:#dbeafe;">
+Road damage can cause accidents, traffic congestion,
+vehicle damage, and difficulties for pedestrians.
+Identifying these problems is an important step
+towards safer roads.
+</p>
+
+<p style="color:#dbeafe; margin-bottom:0;">
+<strong>Our goal:</strong> Building safer roads, one report at a time.
+</p>
+
+</section>
+</main>
+
+<footer style="background-color:#0b1f33; color:#cbd5e1; text-align:center; padding:24px 15px;">
+
+<h3 style="color:white; margin:0 0 5px;">
+🛣️ RoadCare
+</h3>
+
+<p style="margin:5px 0;">
+Road Damage Reporting System
+</p>
+
+<p style="font-size:12px; margin:12px 0 0; color:#94a3b8;">
+Student Project | Building Safer Roads Together
+</p>
+
+</footer>
+
+</body>
+</html>
